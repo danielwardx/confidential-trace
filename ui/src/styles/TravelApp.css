@@ -1,0 +1,57 @@
+.travel-app {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 3rem;
+}
+
+.main-content {
+  margin-top: 1.5rem;
+}
+
+.contract-warning {
+  background: #fff4d8;
+  border: 1px solid #ffd8a8;
+  border-radius: 12px;
+  color: #8a5b00;
+  padding: 1rem 1.5rem;
+  margin-bottom: 1.5rem;
+  font-size: 0.95rem;
+}
+
+.tab-navigation {
+  margin-bottom: 1.5rem;
+}
+
+.tab-nav {
+  display: inline-flex;
+  gap: 0.75rem;
+  background: #ffffff;
+  padding: 0.35rem;
+  border-radius: 9999px;
+  box-shadow: 0 6px 12px rgba(31, 56, 107, 0.08);
+}
+
+.tab-button {
+  border: none;
+  border-radius: 9999px;
+  padding: 0.6rem 1.6rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.tab-button.inactive {
+  background: transparent;
+  color: #334155;
+}
+
+.tab-button.active {
+  background: linear-gradient(135deg, #4f46e5, #6366f1);
+  color: #ffffff;
+  box-shadow: 0 10px 20px rgba(79, 70, 229, 0.25);
+}
+
+.tab-button:hover {
+  transform: translateY(-1px);
+}
